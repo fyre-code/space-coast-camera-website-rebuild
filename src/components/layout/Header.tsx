@@ -33,8 +33,10 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-40"
+      className="z-40"
       style={{
+        position: "sticky",
+        top: 0,
         backgroundImage: `url('${HEADER_BG_URL}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
