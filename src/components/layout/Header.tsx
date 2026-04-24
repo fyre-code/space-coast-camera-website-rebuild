@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <header
-      className="sticky top-0 z-40 relative"
+      className="sticky top-0 z-40"
       style={{
         backgroundImage: `url('${HEADER_BG_URL}')`,
         backgroundSize: "cover",
@@ -50,7 +50,7 @@ export default function Header() {
           <img
             src={LOGO_URL}
             alt={LOGO_ALT}
-            className="h-14 w-auto object-contain"
+            className="w-auto object-contain" style={{ height: "100px" }}
             loading="eager"
           />
         </Link>
