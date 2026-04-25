@@ -642,6 +642,13 @@ footer { background: var(--darker); color: var(--gray-300); }
 .popup-close:hover { color: var(--text); }
 
 /* ============================================================
+   LAWYER + CAMERA SECTION
+   ============================================================ */
+.lawyer-container { width: min-content; max-width: 100%; }
+.lawyer-container p,
+.lawyer-container .btn-group { text-align: left; }
+
+/* ============================================================
    UTILITY
    ============================================================ */
 .mt-1 { margin-top: 0.5rem; }
@@ -684,6 +691,9 @@ footer { background: var(--darker); color: var(--gray-300); }
   .footer-legal-inner a:last-child { text-align: left; }
 
   .location-grid { grid-template-columns: 1fr; }
+
+  .lawyer-container { width: auto; }
+  .lawyer-heading { white-space: normal; }
 
   .hero { min-height: 50vh; }
   h1 { font-size: 2rem; }
