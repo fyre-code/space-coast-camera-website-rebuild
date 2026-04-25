@@ -561,6 +561,7 @@ footer { background: var(--gray-950); color: var(--gray-300); }
   width: 100%;
   padding: 2.5rem;
   position: relative;
+  text-align: center;
 }
 .popup-box h2 { margin-bottom: 1.25rem; font-size: 1.6rem; }
 .popup-box p  { color: var(--gray-600); margin-bottom: 1rem; line-height: 1.75; }
