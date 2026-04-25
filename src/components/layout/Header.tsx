@@ -33,10 +33,13 @@ export default function Header() {
 
   return (
     <header
-      className="z-40"
+      className="z-50"
       style={{
-        position: "sticky",
+        position: "fixed",
         top: 0,
+        left: 0,
+        right: 0,
+        width: "100%",
         backgroundImage: `url('${HEADER_BG_URL}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -46,7 +49,7 @@ export default function Header() {
       <div className="absolute inset-0 bg-black/75" />
 
       {/* Main bar */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 flex items-center justify-between h-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 flex items-center justify-between py-3">
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <img
