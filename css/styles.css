@@ -135,7 +135,6 @@ header {
     var(--header-bg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .header-inner {
@@ -270,7 +269,6 @@ header {
     var(--header-bg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   min-height: 60vh;
   display: flex;
   align-items: center;
@@ -658,9 +656,6 @@ footer { background: var(--gray-950); color: var(--gray-300); }
   .footer-legal-inner a:last-child { text-align: left; }
 
   .location-grid { grid-template-columns: 1fr; }
-
-  /* Disable background-attachment fixed on mobile (iOS bug) */
-  header, .hero { background-attachment: scroll; }
 
   .hero { min-height: 50vh; }
   h1 { font-size: 2rem; }
