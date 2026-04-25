@@ -630,6 +630,10 @@ footer { background: var(--gray-950); color: var(--gray-300); }
 /* ============================================================
    RESPONSIVE
    ============================================================ */
+@media (min-width: 769px) {
+  a[href^="tel:"] { pointer-events: none; cursor: default; }
+}
+
 @media (max-width: 1024px) {
   .icon-cards { grid-template-columns: repeat(3, 1fr); }
 }
