@@ -405,6 +405,12 @@ header {
 /* ============================================================
    TRUSTED BY
    ============================================================ */
+.trusted-by-bg {
+  background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://pbrlhyansxjdndccwtau.supabase.co/storage/v1/object/public/media-public/200da31d-9308-4ab2-9f68-4f802bc2ffce/root/1777157944180_trusted-by-background.png');
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+}
 .trusted-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
