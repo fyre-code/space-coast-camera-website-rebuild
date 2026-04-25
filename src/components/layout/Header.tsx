@@ -34,6 +34,7 @@ export default function Header() {
   return (
     <header
       style={{
+        position: "relative",
         backgroundImage: `url('${HEADER_BG_URL}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
