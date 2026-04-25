@@ -401,6 +401,11 @@ header {
   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
   object-fit: cover;
 }
+.two-col-image {
+  align-self: stretch;
+  display: flex;
+}
+.two-col-image img { height: 100%; }
 
 /* ============================================================
    TESTIMONIALS
