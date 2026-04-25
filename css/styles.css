@@ -101,6 +101,32 @@ p  { line-height: 1.75; }
 }
 
 /* ============================================================
+   PROMO BANNER
+   ============================================================ */
+.promo-banner {
+  background: #cc0000;
+  border-top: 8px solid #003087;
+  border-bottom: 8px solid #003087;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.promo-banner .pct {
+  color: #ffd700;
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.25rem;
+}
+
+/* ============================================================
    HEADER
    ============================================================ */
 header {
