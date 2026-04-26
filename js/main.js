@@ -64,10 +64,11 @@ const popupOverlay = document.getElementById('popup-overlay');
 const popupClose   = document.getElementById('popup-close');
 
 if (popupOverlay) {
-  if (!sessionStorage.getItem('popup-shown')) {
+  const popupCount = parseInt(sessionStorage.getItem('popup-count') || '0', 10);
+  if (popupCount < 3) {
     setTimeout(() => {
       popupOverlay.classList.remove('hidden');
-      sessionStorage.setItem('popup-shown', 'true');
+      sessionStorage.setItem('popup-count', String(popupCount + 1));
     }, 5000);
   }
 
