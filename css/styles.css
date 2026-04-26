@@ -70,7 +70,7 @@ button { cursor: pointer; font-family: inherit; }
 h1 { font-size: clamp(2rem, 5vw, 3.25rem); font-weight: 800; line-height: 1.15; }
 h2 { font-size: clamp(1.6rem, 3vw, 2.25rem); font-weight: 700; line-height: 1.25; }
 h3 { font-size: 1.25rem; font-weight: 700; }
-p  { line-height: 1.75; }
+p  { font-size: 1rem; line-height: 1.75; }
 
 /* ============================================================
    BUTTONS
@@ -172,7 +172,7 @@ header {
 .dropdown-btn {
   color: var(--white);
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   white-space: nowrap;
   transition: color 0.2s;
   background: none;
@@ -215,7 +215,7 @@ header {
   display: block;
   padding: 0.5rem 1rem;
   color: var(--gray-200);
-  font-size: 0.875rem;
+  font-size: 1rem;
   transition: color 0.15s, background 0.15s;
 }
 .dropdown-menu a:hover { color: var(--accent); background: var(--primary); }
@@ -255,7 +255,7 @@ header {
   padding: 0.85rem 1.5rem;
   color: var(--white);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 1rem;
   transition: color 0.15s, background 0.15s;
   border: none;
   background: none;
@@ -270,7 +270,7 @@ header {
 
 .mobile-areas-list { display: none; background: var(--primary); border-top: 1px solid var(--gray-700); border-bottom: 1px solid var(--gray-700); }
 .mobile-areas-list.open { display: block; }
-.mobile-areas-list a { padding-left: 2.5rem; font-size: 0.875rem; color: var(--gray-300); }
+.mobile-areas-list a { padding-left: 2.5rem; font-size: 1rem; color: var(--gray-300); }
 
 /* ============================================================
    HERO
@@ -527,7 +527,7 @@ header {
   text-align: left;
 }
 .location-grid h3 { margin-bottom: 0.5rem; font-size: 1rem; }
-.location-grid p  { color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; }
+.location-grid p  { color: var(--text-muted); font-size: 1rem; line-height: 1.7; }
 .location-grid a  { color: var(--accent); font-weight: 600; }
 .location-grid a:hover { color: var(--accent-hover); }
 
@@ -568,7 +568,7 @@ footer { background: var(--darker); color: var(--gray-300); }
 
 .footer-col h3 { color: var(--text); margin-bottom: 1.25rem; font-size: 1rem; }
 
-.footer-contact-list { display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.875rem; }
+.footer-contact-list { display: flex; flex-direction: column; gap: 0.35rem; font-size: 1rem; }
 .footer-contact-list .label { color: var(--gray-400); }
 .footer-contact-list .mt   { margin-top: 0.75rem; }
 .footer-contact-list a { color: var(--accent); transition: color 0.2s; }
@@ -579,7 +579,7 @@ footer { background: var(--darker); color: var(--gray-300); }
   display: flex;
   align-items: center;
   gap: 0.65rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--gray-300);
   transition: color 0.2s;
@@ -593,7 +593,7 @@ footer { background: var(--darker); color: var(--gray-300); }
   padding: 1.25rem 1.5rem;
   gap: 1rem;
 }
-.footer-legal-inner a { font-size: 0.875rem; color: var(--gray-400); transition: color 0.2s; }
+.footer-legal-inner a { font-size: 1rem; color: var(--gray-400); transition: color 0.2s; }
 .footer-legal-inner a:hover { color: var(--accent); }
 .footer-legal-inner a:last-child { text-align: right; }
 
