@@ -81,13 +81,9 @@ const popupOverlay = document.getElementById('popup-overlay');
 const popupClose   = document.getElementById('popup-close');
 
 if (popupOverlay) {
-  const popupCount = parseInt(sessionStorage.getItem('popup-count') || '0', 10);
-  if (popupCount < 3) {
-    setTimeout(() => {
-      popupOverlay.classList.remove('hidden');
-      sessionStorage.setItem('popup-count', String(popupCount + 1));
-    }, 5000);
-  }
+  setTimeout(() => {
+    popupOverlay.classList.remove('hidden');
+  }, 5000);
 
   if (popupClose) {
     popupClose.addEventListener('click', () => {
