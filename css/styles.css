@@ -676,12 +676,26 @@ footer { background: var(--darker); color: var(--gray-300); }
   .main-nav   { display: none; }
   .hamburger  { display: flex; }
 
+  .section { padding: 3rem 0; }
+
   .two-col { grid-template-columns: 1fr; gap: 2rem; }
   .two-col.reverse-mobile > :first-child { order: 2; }
+  .two-col-image { min-height: 280px; }
 
   .steps-grid    { grid-template-columns: 1fr; gap: 2rem; }
   .products-grid { grid-template-columns: 1fr 1fr; }
   .icon-cards    { grid-template-columns: 1fr; }
+
+  .promo-banner { font-size: 1.1rem; padding: 1rem; }
+  .promo-banner .pct { font-size: 1.8rem; }
+
+  .hero { min-height: 50vh; }
+  .hero p { font-size: 1rem; }
+  h1 { font-size: 2rem; }
+
+  .blurb-box { min-height: 0; }
+
+  .section iframe { min-height: 320px !important; }
 
   .footer-top-inner {
     grid-template-columns: 1fr;
@@ -689,6 +703,7 @@ footer { background: var(--darker); color: var(--gray-300); }
     gap: 2.5rem;
   }
   .footer-logo-col { justify-content: center; }
+  .footer-logo-img { height: 80px; }
 
   .footer-legal-inner { grid-template-columns: 1fr; }
   .footer-legal-inner a:last-child { text-align: left; }
@@ -697,9 +712,6 @@ footer { background: var(--darker); color: var(--gray-300); }
 
   .lawyer-container { width: auto; }
   .lawyer-heading { white-space: normal; }
-
-  .hero { min-height: 50vh; }
-  h1 { font-size: 2rem; }
 }
 
 @media (max-width: 500px) {

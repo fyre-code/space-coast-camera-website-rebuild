@@ -6,8 +6,25 @@ const mobileNav = document.getElementById('mobile-nav');
 
 if (hamburger && mobileNav) {
   hamburger.addEventListener('click', () => {
+    const isOpen = mobileNav.classList.toggle('open');
     hamburger.classList.toggle('open');
-    mobileNav.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+
+  document.querySelectorAll('.mobile-nav a').forEach((link) => {
+    link.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      mobileNav.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && mobileNav.classList.contains('open')) {
+      hamburger.classList.remove('open');
+      mobileNav.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
   });
 }
 
