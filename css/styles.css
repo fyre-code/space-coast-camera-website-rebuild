@@ -159,7 +159,7 @@ header {
   min-height: 80px;
 }
 
-.header-logo { height: 100px; width: auto; object-fit: contain; }
+.header-logo { height: 200px; width: auto; object-fit: contain; }
 
 /* Desktop nav */
 .main-nav {
@@ -172,7 +172,7 @@ header {
 .dropdown-btn {
   color: var(--white);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 20px;
   white-space: nowrap;
   transition: color 0.2s;
   background: none;
@@ -586,25 +586,26 @@ footer { background: var(--darker); color: var(--gray-300); }
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3rem;
   padding: 4rem 1.5rem;
-  align-items: start;
+  align-items: center;
+  text-align: center;
 }
 
 .footer-logo-col {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
-.footer-logo-img { height: 130px; width: auto; object-fit: contain; }
+.footer-logo-img { height: 250px; width: auto; object-fit: contain; }
 
 .footer-col h3 { color: var(--text); margin-bottom: 1.25rem; font-size: 1rem; }
 
-.footer-contact-list { display: flex; flex-direction: column; gap: 0.35rem; font-size: 1rem; }
+.footer-contact-list { display: flex; flex-direction: column; gap: 0.35rem; font-size: 1rem; align-items: center; }
 .footer-contact-list .label { color: var(--gray-400); }
 .footer-contact-list .mt   { margin-top: 0.75rem; }
 .footer-contact-list a { color: var(--accent); transition: color 0.2s; }
 .footer-contact-list a:hover { color: var(--accent-hover); }
 
-.footer-social-list { display: flex; flex-direction: column; gap: 0.85rem; }
+.footer-social-list { display: flex; flex-direction: column; gap: 0.85rem; align-items: center; }
 .footer-social-list a {
   display: flex;
   align-items: center;
